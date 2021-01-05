@@ -4,9 +4,9 @@
 
 <p>This is a test site.</p>
 
-<button>Print</button>
+<button id="print-page">Print</button>
 
 <script>
-  const print = document.querySelector("button");
-  print.addEventListener("click",function() {window.print;},false)
+  const print = document.querySelector("#print-page");
+  print.addEventListener("click",function() {window.print();},false);
 </script>
